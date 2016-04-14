@@ -9,3 +9,9 @@ example_2;
     In this example, you can send email automatic or input information by yourself. This example can also send a email
 contains attachment. You can change the code about the attachment name or something else.
     Command: python example_2.py (You need to input information by yourself. Not for parameters, but input.)
+
+example_3:
+    In this example, you can get something useful from the Internet! What I want to get is some books' information from
+a website called DouBan. By compiling this program you can get top 250 books from website. But in the output text, I only
+store the books which score is more than 8.5. I store the books' name, author, publishing houses, year and price.
+    Command: python example_3.py
