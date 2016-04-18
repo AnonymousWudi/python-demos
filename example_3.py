@@ -1,6 +1,7 @@
 # coding=utf-8
 
 import cookielib
+import urllib
 import urllib2
 import re
 
