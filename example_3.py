@@ -21,7 +21,16 @@ class PostGetFunction:
         urllib2.install_opener(self.opener)
 
     def post(self):
-        return None
+        postdata = {
+        }
+        postdata = urllib.urlencode(postdata)
+        request = urllib2.Request(url, postdata, self.header)
+        try:
+            content = urllib2.urlopen(request)
+            return content
+        except Exception, e:
+            print ("post:" + str(e))
+            return None
 
     def get(self, url):
         request = urllib2.Request(url, None, self.header)
