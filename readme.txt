@@ -15,3 +15,11 @@ example_3:
 a website called DouBan. By compiling this program you can get top 250 books from website. But in the output text, I only
 store the books which score is more than 8.5. I store the books' name, author, publishing houses, year and price.
     Command: python example_3.py
+
+example_4:
+    Write a function that returns all of the sublists of a list or Array.
+    Your function should be pure; it cannot modify its input.
+    Example:
+        power([1,2,3])
+        # => [[], [1], [2], [1, 2], [3], [1, 3], [2, 3], [1, 2, 3]]
+    For more details regarding this, see the power set entry in wikipedia.
